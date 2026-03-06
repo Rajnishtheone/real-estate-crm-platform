@@ -1,0 +1,38 @@
+﻿# Node / build
+node_modules/
+*/node_modules/
+.npmrc
+npm-debug.log*
+yarn-error.log
+pnpm-lock.yaml
+
+# Environment
+.env
+.env.*
+!.env.example
+server/.env
+frontend/.env
+
+# Build outputs
+.dist/
+dist/
+build/
+coverage/
+.nyc_output/
+.tmp/
+.cache/
+
+# Next.js
+.next/
+out/
+
+# Prisma
+prisma/dev.db
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
